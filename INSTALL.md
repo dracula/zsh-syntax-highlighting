@@ -19,8 +19,8 @@ Download using the [GitHub .zip download](https://github.com/dracula/zsh-syntax-
 
    * **Note**: Be sure to paste the contents of the file _before_ the following line in your `~/.zshrc` file:
 
-   ```bash
-   source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-   ```
+      ```bash
+      source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+      ```
 
 3. Start a new zsh session: `exec zsh` and confirm it's working.
