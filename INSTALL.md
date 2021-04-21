@@ -17,10 +17,12 @@ Download using the [GitHub .zip download](https://github.com/dracula/zsh-syntax-
 
 2. Copy the contents of the [Dracula zsh-syntax-highlighting](https://github.com/bigpick/zsh-syntax-highlighting/blob/master/zsh-syntax-highlighting.sh) file, and paste into your zshrc file, likely at `~/.zshrc`.
 
-   * **Note**: Be sure to paste the contents of the file _before_ the following line in your `~/.zshrc` file:
+   * **Note**: If you installed zsh-syntax-highlighting [via git](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#in-your-zshrc), or [site wide](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#system-wide-installation), be sure to paste the contents of the file _before_ the following line in your `~/.zshrc` file:
 
       ```bash
-      source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+      source ...zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
       ```
+
+   * **Note**: If you installed zsh-syntax-highlighting [via a plugin manager](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#with-a-plugin-manager), be sure to paste the contents of the file _before_ you activate the utility via it's plugin invocation.
 
 3. Start a new zsh session: `exec zsh` and confirm it's working.
