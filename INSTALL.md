@@ -15,7 +15,7 @@ Download using the [GitHub .zip download](https://github.com/dracula/zsh-syntax-
 
 1. Before being able to use the Dracula theme for zsh-syntax-highlighting, you must first have [downloaded and installed the zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md) utility (and be using [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)).
 
-2. Copy the contents of the [Dracula zsh-syntax-highlighting](https://github.com/dracula/zsh-syntax-highlighting.sh) file, and paste into your zshrc file, likely at `~/.zshrc`.
+2. Copy the contents of the [Dracula zsh-syntax-highlighting](https://github.com/bigpick/zsh-syntax-highlighting/blob/master/zsh-syntax-highlighting.sh) file, and paste into your zshrc file, likely at `~/.zshrc`.
 
    * **Note**: Be sure to paste the contents _before_ the `source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh` in your `~/.zshrc` file.
 
