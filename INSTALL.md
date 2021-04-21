@@ -17,6 +17,10 @@ Download using the [GitHub .zip download](https://github.com/dracula/zsh-syntax-
 
 2. Copy the contents of the [Dracula zsh-syntax-highlighting](https://github.com/bigpick/zsh-syntax-highlighting/blob/master/zsh-syntax-highlighting.sh) file, and paste into your zshrc file, likely at `~/.zshrc`.
 
-   * **Note**: Be sure to paste the contents _before_ the `source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh` in your `~/.zshrc` file.
+   * **Note**: Be sure to paste the contents of the file _before_ the following line in your `~/.zshrc` file:
+
+   ```bash
+   source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+   ```
 
 3. Start a new zsh session: `exec zsh` and confirm it's working.
