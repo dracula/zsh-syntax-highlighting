@@ -26,3 +26,11 @@ Download using the [GitHub .zip download](https://github.com/dracula/zsh-syntax-
    * **Note**: If you installed zsh-syntax-highlighting [via a plugin manager](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#with-a-plugin-manager), be sure to paste the contents of the file _before_ you activate the utility via it's plugin invocation.
 
 3. Start a new zsh session: `exec zsh` and confirm it's working.
+
+#### Implementation
+
+This theme attempts to cover all possible zsh-syntax-highlighting options for the [**main** highlighter](https://github.com/zsh-users/https://draculatheme.com//blob/master/docs/highlighters/main.md). The coloring was implemented/modelled after the [official Dracula color specification](https://spec.draculatheme.com/) as much as logically possible.
+
+As such, the theme is grouped by Dracula spec section; Each section in the spec is 1:1 with a `## <header>` in the theme file. For settings that didn't seem to fall under any of the Dracula spec, they are under the `## No category relevant in spec` section.
+
+Within a section, the options occur in the same order they do on the [main highlighter doc page](https://github.com/zsh-users/https://draculatheme.com//blob/master/docs/highlighters/main.md).
