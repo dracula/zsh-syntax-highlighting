@@ -1,6 +1,5 @@
 ### [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 
-
 #### Install using Git
 
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
