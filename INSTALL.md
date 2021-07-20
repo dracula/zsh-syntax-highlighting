@@ -35,3 +35,18 @@ This theme attempts to cover all possible zsh-syntax-highlighting options for th
 As such, the theme is grouped by Dracula spec section; Each section in the spec is 1:1 with a `## <header>` in the theme file. For settings that didn't seem to fall under any of the Dracula spec, they are under the `## No category relevant in spec` section.
 
 Within a section, the options occur in the same order they do on the [main highlighter doc page](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/docs/highlighters/main.md).
+
+#### Accompanying Screnshot Prompt
+
+Though not related to this theme nor included as a specific Dracula offering, the prompt in the screenshot is [typewritten: "A minimal zsh prompt"](https://typewritten.dev/#/). Relevant `~/.zshrc` settings are so:
+
+```bash
+# Typwritten: https://typewritten.dev/#/installation; Dracula compliment, purple based
+ZSH_THEME="typewritten"
+
+export TYPEWRITTEN_SYMBOL="λ "
+export DRACULA_TYPEWRITTEN_COLOR_MAPPINGS="primary:#d5ccff;secondary:#9580ff;info_neutral_1:#d0ffcc;info_neutral_2:#ffffcc;info_special:#ff9580;i
+nfo_negative:#ff5555;notice:#ffff80;accent:#d5ccff"
+export TYPEWRITTEN_COLOR_MAPPINGS="${DRACULA_TYPEWRITTEN_COLOR_MAPPINGS}"
+export TYPEWRITTEN_PROMPT_LAYOUT="half_pure"
+```
