@@ -45,8 +45,7 @@ Though not related to this theme nor included as a specific Dracula offering, th
 ZSH_THEME="typewritten"
 
 export TYPEWRITTEN_SYMBOL="λ "
-export DRACULA_TYPEWRITTEN_COLOR_MAPPINGS="primary:#d5ccff;secondary:#9580ff;info_neutral_1:#d0ffcc;info_neutral_2:#ffffcc;info_special:#ff9580;i
-nfo_negative:#ff5555;notice:#ffff80;accent:#d5ccff"
+export DRACULA_TYPEWRITTEN_COLOR_MAPPINGS="primary:#d5ccff;secondary:#9580ff;info_neutral_1:#d0ffcc;info_neutral_2:#ffffcc;info_special:#ff9580;info_negative:#ff5555;notice:#ffff80;accent:#d5ccff"
 export TYPEWRITTEN_COLOR_MAPPINGS="${DRACULA_TYPEWRITTEN_COLOR_MAPPINGS}"
 export TYPEWRITTEN_PROMPT_LAYOUT="half_pure"
 ```
